@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="3">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:weightSum="3"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.7"
+                android:textSize="16dp"
+                android:padding="5dp"
+                android:id="@+id/maKH"
+                android:text="Ngoc"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.7"
+                android:textSize="16dp"
+                android:padding="5dp"
+                android:id="@+id/tenKH"
+                android:text="Ngoc djjdjd"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.6"
+                android:textSize="16dp"
+                android:padding="5dp"
+                android:id="@+id/loaiKH"
+                android:text="Ngoc"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:weightSum="2"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="16dp"
+                android:padding="5dp"
+                android:id="@+id/chiSoCu"
+                android:text="Ngoc"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="16dp"
+                android:padding="5dp"
+                android:id="@+id/chiSoMoi"
+                android:text="Ngoc djjdjd"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:weightSum="2"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="16dp"
+                android:padding="5dp"
+                android:text="Thành Tiền: "/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="16dp"
+                android:padding="5dp"
+                android:id="@+id/thanhTien"
+                android:text="Ngoc djjdjd"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
